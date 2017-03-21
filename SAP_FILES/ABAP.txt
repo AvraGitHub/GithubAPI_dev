@@ -1,0 +1,60 @@
+START:ZAQ_TEST_ACPUB AUTHOR:deivanai23  EMAIL:deivanai.sp@egrovesystems.com
+class ZAQ_TEST definition
+  public
+  final
+  create public .
+
+public section.
+
+  class-data TEST type CHAR1 value 'X'. "#EC NOTEXT .
+  class-data TEST1 type CHAR1 value 'Y'. "#EC NOTEXT .
+  class-data TEST2 type CHAR1 .
+
+  methods CONSTRUCTOR .
+  class-methods HELLOWORLD .
+FINISH:ZAQ_TEST                                                                                                      CPUB
+START:ZAQ_TEST_BCPUB AUTHOR:deivanai  EMAIL:deivanai.sp@egrovesystems.com
+class ZAQ_TEST definition
+  public
+  final
+  create public .
+
+public section.
+
+  class-data TEST type CHAR1 value 'X'. "#EC NOTEXT .
+  class-data TEST1 type CHAR1 value 'Y'. "#EC NOTEXT .
+  class-data TEST2 type CHAR1 .
+
+  methods CONSTRUCTOR .
+  class-methods HELLOWORLD .
+FINISH:ZAQ_TEST                                                                                                      CPUB
+START:ZAQ_TEST_CCPUB AUTHOR:deivanai23  EMAIL:wiswash@egrovesystems.com
+class ZAQ_TEST definition
+  public
+  final
+  create public .
+
+public section.
+
+  class-data TEST type CHAR1 value 'X'. "#EC NOTEXT .
+  class-data TEST1 type CHAR1 value 'Y'. "#EC NOTEXT .
+  class-data TEST2 type CHAR1 .
+
+  methods CONSTRUCTOR .
+  class-methods HELLOWORLD .
+FINISH:ZAQ_TEST                                                                                                      CPUB
+START:ZAQ_TEST_DCPUB AUTHOR:deivanai  EMAIL:wiswash@egrovesystems.com
+class ZAQ_TEST definition
+  public
+  final
+  create public .
+
+public section.
+
+  class-data TEST type CHAR1 value 'X'. "#EC NOTEXT .
+  class-data TEST1 type CHAR1 value 'Y'. "#EC NOTEXT .
+  class-data TEST2 type CHAR1 .
+
+  methods CONSTRUCTOR .
+  class-methods HELLOWORLD .
+FINISH:ZAQ_TEST                                                                                                      CPUB
